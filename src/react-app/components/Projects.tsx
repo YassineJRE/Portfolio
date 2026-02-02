@@ -69,7 +69,7 @@ export default function Projects() {
           {otherProjects.map((project, index) => (
             <div
               key={index}
-              className={`p-6 rounded-xl bg-gradient-to-br from-gray-900 to-gray-800 border border-gray-700 hover:border-blue-500 hover:shadow-2xl hover:shadow-purple-500/20 hover:scale-105 hover:-translate-y-1 transition-all duration-300 card-shimmer scroll-animate-delay-${(index % 3) + 1}`}
+              className={`p-6 rounded-xl bg-gradient-to-br from-gray-900 to-gray-800 border border-gray-700 hover:border-blue-500 hover:shadow-2xl hover:shadow-purple-500/20 hover:scale-105 hover:-translate-y-1 transition-all duration-300 card-shimmer scroll-animate-delay-${(index % 3) + 1} relative z-0`}
             >
               <div className="flex items-center justify-between mb-3">
                 <h3 className="text-xl font-bold text-gray-100">
@@ -97,7 +97,7 @@ export default function Projects() {
                   href={project.github}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-blue-600 to-cyan-600 text-white rounded-lg font-semibold hover:shadow-lg hover:shadow-cyan-500/50 hover:scale-105 transition-all duration-300 text-sm"
+                  className="relative z-50 inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-blue-600 to-cyan-600 text-white rounded-lg font-semibold hover:shadow-lg hover:shadow-cyan-500/50 hover:scale-105 transition-all duration-300 text-sm"
                 >
                   <Github size={16} />
                   View on GitHub

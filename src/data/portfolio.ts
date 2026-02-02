@@ -1,10 +1,10 @@
 export const personalInfo = {
   name: "Yassine Jenjare",
   initials: "YJ",
-  title: "Full-Stack Software Engineer",
+  title: "Full-Stack Software Developper",
   tagline: "Building scalable web applications with Python, Laravel, and modern JavaScript frameworks",
   email: "jenjareyassine@gmail.com",
-  phone: "5063122589",
+  phone: "+1 (506) 312-2589",
   location: "Canada",
   github: "https://github.com/YassineJRE",
   linkedin: "https://www.linkedin.com/in/yassine-jenjare-413b1a32b/"
